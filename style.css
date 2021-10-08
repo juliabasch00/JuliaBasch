@@ -1,9 +1,55 @@
 .basch {
-color: blue;
+color: burlywood;
 }
 .campbell {
-color: cornflowerblue;
+color: rgb(12, 55, 75);
 }
-#julia{
+/* #julia{
     color: rgb(245, 133, 118);
+} */
+/* .sylive {
+    color: rgb(30, 44, 119);
+   } */
+.bob {
+    color: rgb(8, 71, 37);
 }
+.navbar-custom {
+    background-color: #93c3f0;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #ece7d0;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ece7d0;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: pink;
+}
+
+/* for dropdowns only */
+.navbar-custom .navbar-nav .dropdown-menu {
+    background-color: #b1dbc7;
+}
+
+/* dropdown item text color */
+.navbar-custom .navbar-nav .dropdown-item {
+    color: rgb(12, 55, 75);
+}
+
+/* dropdown item hover or focus */
+.navbar-custom .navbar-nav .dropdown-item:hover,
+.navbar-custom .navbar-nav .dropdown-item:focus {
+    color: #eeeeee;
+    background-color: rgb(39, 145, 86);
+}
+
+
