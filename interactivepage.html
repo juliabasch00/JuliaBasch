@@ -42,45 +42,45 @@ page that contains all the code you need for a new page.-->
       <br>
     </div>
   <!--NAME,EMAIL,AGE-->
-  <form method="get">
+  <form action="Results.html" method="get">
   <br>  
   <div class="input-group input-group-sm mb-3">
       <span class="input-group-text" id="inputGroup-sizing-sm">Name:</span>
-      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+      <input type="text" class="form-control"  name="firstName" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
     </div>
     <div class="input-group input-group-sm mb-3">
       <span class="input-group-text" id="inputGroup-sizing-sm">Email:</span>
-      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+      <input type="text" class="form-control" name="email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
     </div> 
     <div class="input-group input-group-sm mb-3">
       <span class="input-group-text" id="inputGroup-sizing-sm">Age:</span>
-      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+      <input type="text" class="form-control"  name="age" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
     </div>
 
    <!--RADIO QUESTIONS--> <br> Does this issue bother you? <br>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="yes">
       <label class="form-check-label" for="inlineRadio1">Yes</label>
     </div>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="no">
       <label class="form-check-label" for="inlineRadio2">No</label>
     </div>
 
    <br> Do you want to make a difference? <br>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio1" value="option1">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio1" value="yes">
       <label class="form-check-label" for="inlineRadio1">Yes</label>
     </div>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option2">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="no">
       <label class="form-check-label" for="inlineRadio2">No</label>
     </div>
 
    <!--TEXT AREA-->
     <div class="mb-3">
       <br> <label for="exampleFormControlTextarea1" class="form-label">Tell us how you and/or others can help:</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <textarea class="form-control" name="textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     
     <input type="submit" name="" value="Submit">

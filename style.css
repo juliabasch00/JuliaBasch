@@ -53,3 +53,8 @@ color: rgb(12, 55, 75);
 }
 
 
+
+    .carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
